@@ -1,0 +1,60 @@
+body{
+	   background:
+linear-gradient(100deg,
+ #330000, transparent 70%),
+            linear-gradient(300deg,
+ #330000, transparent 59%), #fff url(../images/garden.jpg) no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+
+.rw-sentence div {
+	  margin-top: 18%;
+	text-align: center;
+	color: yellow;
+	font-family: 'Trocchi';
+	font-size: 560%;
+	white-space: nowrap;
+	text-shadow: 2px 5px 10px rgba(0,0,0,0.1);
+}
+
+
+
+
+
+@media screen and (max-width: 1060px){
+	.rw-sentence div { font-size: 550%;}
+}
+
+
+@media screen and (max-width: 715px){
+	.rw-sentence div { font-size: 450%;}
+}
+
+
+@media screen and (max-width: 610px){
+	.rw-sentence div { font-size: 410%;}
+}
+
+
+@media screen and (max-width: 500px){
+	.rw-sentence div { font-size: 400%;}
+}
+
+
+@media screen and (max-width: 440px){
+	.rw-sentence div { font-size: 330%; margin-top: 27%;}
+}
+
+
+@media screen and (max-width: 365px){
+	.rw-sentence div { font-size: 300%; margin-top: 30%;}
+}
+
+
+@media screen and (max-width: 325px){
+	.rw-sentence > div { font-size: 240%; margin-top: 37%;}
+}
+
+
